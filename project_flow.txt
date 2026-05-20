@@ -1,0 +1,3 @@
+1. Create git repository  dvc_learning and cloning it in local  .
+Create a code1.py file -> make a csv file  to a data folder 
+doing a git add + commit before initializing dvc .
