@@ -1,3 +1,8 @@
 1. Create git repository  dvc_learning and cloning it in local  .
-Create a code1.py file -> make a csv file  to a data folder 
-doing a git add + commit before initializing dvc .
+2.Create a code1.py file -> make a csv file  to a data folder 
+3.doing a git add + commit before initializing dvc .
+4.## pip install dvc .
+5.now we do initialization of the dvc throw "dvc init" -> creates a .dvcignore , .dvc
+6.making a folder S3 "mkdir S3" (currently using the S3 for storing in upcomig we use aws )
+7.now we do "dvc remote add -d myremote S3" -> telling dvc that S3 is our remote branch save change here.
+8. next "dvc add data\" -> dvc responsible for any changes in data folder. ->data.dvc is created -> gives you id 
