@@ -8,3 +8,10 @@
 8. next "dvc add data\" -> dvc responsible for any changes in data folder. ->data.dvc is created -> gives you id 
 9. git commit -push  and dcv commit and then dvc push -> before doing see that s3 is empty 
 10. git commit -push to mark this stage first version of data saved into s3 .
+11. add changes in data in code1.py file (append a row)
+ and chech changes (dvc status)
+12. now agaian "dvc commit" and then "dvc push" -> see now the id is changed 
+
+
+
+
