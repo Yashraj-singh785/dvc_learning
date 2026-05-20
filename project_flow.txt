@@ -11,7 +11,8 @@
 11. add changes in data in code1.py file (append a row)
  and chech changes (dvc status)
 12. now agaian "dvc commit" and then "dvc push" -> see now the id is changed 
-
+13. again git -commit -push "second version of the data "
+14. now add one more data entry  then perform dvc -cmmit push and git push
 
 
 
