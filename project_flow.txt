@@ -6,3 +6,5 @@
 6.making a folder S3 "mkdir S3" (currently using the S3 for storing in upcomig we use aws )
 7.now we do "dvc remote add -d myremote S3" -> telling dvc that S3 is our remote branch save change here.
 8. next "dvc add data\" -> dvc responsible for any changes in data folder. ->data.dvc is created -> gives you id 
+9. git commit -push  and dcv commit and then dvc push -> before doing see that s3 is empty 
+10. git commit -push to mark this stage first version of data saved into s3 .
